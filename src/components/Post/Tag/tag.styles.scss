@@ -1,0 +1,12 @@
+.tag {
+	padding: 0.5rem;
+	background: grey;
+	border-style: none;
+	border-radius: 1rem;
+	margin: 0 0.25rem;
+
+	&__text {
+		color: white;
+		font-size: 0.75rem;
+	}
+}

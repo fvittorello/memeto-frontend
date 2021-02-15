@@ -1,0 +1,46 @@
+.post {
+	width: 800px;
+	padding: 2rem;
+	border: 1px solid black;
+	margin-bottom: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	&__container-top {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 0.5rem;
+	}
+
+	&__img {
+		object-fit: contain;
+		margin-bottom: 0.5rem;
+	}
+
+	&__title {
+		font-size: 1.5rem;
+		color: black;
+	}
+
+	&__date {
+		font-size: 1rem;
+		color: grey;
+	}
+
+	&__interaction-container {
+		margin-top: 0.75rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	&__tags-container {
+		margin-top: 3rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+}
